@@ -1,8 +1,7 @@
-
 typedef struct element{
- 	void *vlaue;
+ 	void *value;
  	struct element *next;
-}Element;
+} Element;
 
 typedef struct{
 	Element *first_element;
@@ -11,3 +10,4 @@ typedef struct{
 }LinkedList;
 
 LinkedList createList(void);
+int add_to_list(LinkedList *,void *);

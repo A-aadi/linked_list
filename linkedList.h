@@ -12,4 +12,6 @@ typedef struct{
 LinkedList createList(void);
 int add_to_list(LinkedList *,void *);
 void *get_first_element(LinkedList);
+void *get_last_element(LinkedList);
+
 

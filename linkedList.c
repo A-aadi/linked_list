@@ -31,3 +31,7 @@ void *get_first_element(LinkedList list){
 	return list.first_element;
 }
 
+void *get_last_element(LinkedList list){
+	return list.last_element;
+}
+
